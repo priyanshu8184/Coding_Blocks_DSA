@@ -6,7 +6,7 @@ int main(){
     cin>>n;
     for ( int i = 0; i < n; i++)
     {
-        cout<<"*"<<endl;
+        cout<<" * "<<endl;
     }
 
     cout<<"Enter the number of rows: ";
@@ -14,7 +14,7 @@ int main(){
     for ( int i = 0; i < n; i++){
         for ( int j = 0; j < n; j++)
         {
-            cout<<"*";
+            cout<<" * ";
         }
         cout<<endl;
     }

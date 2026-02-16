@@ -2,18 +2,13 @@
 using namespace std;
 
 int main() {
+	// sum of two numbers
 	int a,b,c;
 	a=10;
 	b=20;
 	c=a+b;
 	cout<<"The sum of a and b is: "<<c<<endl;
-
-	
-
-// #include <iostream>
-// using namespace std;
-// int main()
-
+	// simple interest
 	int si,p,t,r;
 	cout<<"Enter the principal amount: ";
 	cin>>p;
@@ -23,5 +18,15 @@ int main() {
 	cin>>r;
 	si=(p*t*r)/100;
 	cout<<"The simple interest is: "<<si<<endl;
+	// even or odd
+	int num1;
+	cout<<"Enter a number:";
+	cin>>num1;
+	if(num1%2==0){
+		cout<<"The number is even."<<endl;
+	}
+	else{
+		cout<<"the number is odd.";
+	}
 	return 0;
 }
