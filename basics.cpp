@@ -2,14 +2,11 @@
 using namespace std;
 
 int main() {
-	cout << "Hello, World!" << endl;
-	cout << "Enter two integers separated by space: ";
-	int a, b;
-	if (!(cin >> a >> b)) {
-		cerr << "Invalid input\n";
-		return 1;
-	}
-	cout << "Sum: " << (a + b) << endl;
+	int a,b,c;
+	a=10;
+	b=20;
+	c=a+b;
+	cout<<"The sum of a and b is: "<<c<<endl;
+
 	return 0;
 }
-// hello world
