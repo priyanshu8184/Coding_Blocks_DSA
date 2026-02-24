@@ -1,4 +1,11 @@
 // pattern number 5
+//           *
+//           * * *
+//         * * * * *
+//       * * * * * * *       
+//     * * * * * * * * *     
+//   * * * * * * * * * * *   
+// * * * * * * * * * * * * *
 #include<iostream>
 using namespace std;
 int main(){
@@ -18,8 +25,8 @@ int main(){
             cout<<"* ";
         } 
         //b loop 
-        for(int j=2;j<=i;j++) 
-        // here you can write 1 also on the place of 2{
+        for(int j=2;j<=i;j++) {
+        // here you can write 1 also on the place of 2
             cout<<"* ";
         } 
         // a loop
@@ -28,6 +35,6 @@ int main(){
         }
         cout<<endl;
     }
-    return 0;
+return 0;
 
 }
