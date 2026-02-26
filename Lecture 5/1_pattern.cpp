@@ -3,6 +3,7 @@
 //                 1       2       3       2       1
 //         1       2       3       4       3       2       1
 // 1       2       3       4       5       4       3       2       1
+// Lecture 5 Pattern 5
 
 
 #include <iostream>
